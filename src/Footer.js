@@ -1,7 +1,12 @@
 import React from 'react';
 import './Header.css';
+import './Footer.css';
 
 function App() {
-  return <footer>Copyright</footer>;
+  return (
+    <footer>
+      <p>Copyright</p>
+    </footer>
+  );
 }
 export default App;
