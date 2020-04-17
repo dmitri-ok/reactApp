@@ -1,8 +1,8 @@
 import React from 'react';
-import './Header.css';
+import '../header/Header.css';
 import './Main.css';
 
-function App() {
+function Main() {
   return (
     <main>
       <article>
@@ -26,4 +26,4 @@ function App() {
     </main>
   );
 }
-export default App;
+export default Main;

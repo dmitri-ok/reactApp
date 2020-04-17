@@ -2,9 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './Header.css';
 
-function App() {
+function Header() {
   return (
-    <header className="App-header">
+    <header>
+      className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
         Edit <code>src/App.js</code> and save to reload.
@@ -20,4 +21,4 @@ function App() {
     </header>
   );
 }
-export default App;
+export default Header;
