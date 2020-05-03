@@ -4,10 +4,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer
-      className="section footer-classic context-dark bg-image"
-      style={{ background: '#2d3246', color: '#fff' }}
-    >
+    <footer>
       <p>Copyright</p>
     </footer>
   );
